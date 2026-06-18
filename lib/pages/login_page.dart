@@ -48,7 +48,7 @@ class _LoginPageState extends State<LoginPage> {
                 child: Column(
                   mainAxisSize: MainAxisSize.min,
                   children: [
-                    const Icon(Icons.person, size: 80, color: Colors.green,),
+                    const Icon(Icons.person, size: 80, color: Color.fromARGB(255, 29, 245, 29),),
                     const SizedBox(height: 20,),
                     TextFormField(
                       controller: usernameController,
@@ -94,7 +94,7 @@ class _LoginPageState extends State<LoginPage> {
                       child: ElevatedButton(
                         onPressed: login,
                         style: ElevatedButton.styleFrom(
-                          backgroundColor: Colors.green,
+                          backgroundColor: const Color.fromARGB(255, 29, 243, 29),
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(10),
                           )
